@@ -29,3 +29,4 @@ effectiveness of our algorithm.
 - Strong SORT
 ## Working Prototype Video -> https://drive.google.com/file/d/1jMDLH4bxE-zPoQp4ka3mAr6woTAKDKUi/view?usp=sharing
 ## Dataset -> https://app.roboflow.com/spectacle/pen_parts_detection/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true
+## Main code -> https://github.com/dasabhishek955/penFinalYearProject/blob/main/liveDetection.py
