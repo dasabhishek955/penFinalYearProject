@@ -13,7 +13,7 @@ while (True):
     # by frame
     ret, frame = vid.read()
     frame=cv2.resize(frame,(640,640))
-    results = model.predict(frame, conf=0.4,imgsz=640,device=0)
+    results = model.predict(frame, conf=0.4,iou=0.4,imgsz=640,device=0)
     dec=results[0].boxes.cls.tolist()
     if len(dec)>0:
         cv2.imshow('Detected', results[0].plot())
